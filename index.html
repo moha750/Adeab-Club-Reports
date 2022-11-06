@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+  <meta charset="UTF-8">
+  <title>نادي أدِيب</title>
+  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700,900" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.linearicons.com/free/1.0.0/icon-font.min.css">
+<meta name="viewport" content="width=device-width, initial-scale=1"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+<link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<div class="from-center">
+    <form id="form-wrapper" class="form-wrapper" name="form" action="https://script.google.com/macros/s/AKfycbwdmF61OZePT9AvZ-oNjm19rK_FtB9yxoBRpVuKkDoIi9RuhLw553cWnv0xo4_Hz4RG/exec">
+            <nav id="progress-bar" class="progress-bar">
+                <ul class="progress-bar__container">  
+                    <li class="progress-bar__item current"><a href="#" class="link">معلومات الأجتماع</a></li>
+                    <li class="progress-bar__item"><a href="#" class="link">محاور الأجتماع</a></li>
+                    <li class="progress-bar__item"><a href="#" class="link">أهم التحديثات والأفكار</a></li>
+                    <li class="progress-bar__item"><a href="#" class="link">الحضور</a></li>      
+                </ul>
+            </nav>
+           
+            <div id="fieldset-container" class="tab-wrapper ">
+                <fieldset class="tab-panel">
+                    <div class="legend"> <span><img src="شعار اديب.png"></span> تقرير إجتماعات </div>
+                    <div class="input-group">
+                        <input type="number" class="input" name="رقم الأجتماع" id="number">
+                        <label class="label" for="number"><i class="lnr lnr-briefcase"></i>رقم الأجتماع</label> 
+                    </div>
+
+                    <div class="input-group">
+                        <input type="date" class="input" name="تاريخ الأجتماع" id="date" data-dd-opt-custom-class="date" >
+                        <label class="label" for="date"><i class="lnr lnr-calendar-full"></i>تاريخ الأجتماع</label> 
+                    </div>
+
+                    <div class="input-group select">
+                        <select name="يوم الأجتماع" class="input" id="country" >
+                            <option value=""></option>
+                            <option value="الأحد">الأحد</option>
+                            <option value="الأثنين">الأثنين</option>
+                            <option value="الثلاثاء">الثلاثاء</option>
+                            <option value="الأربعاء">الأربعاء</option>
+                            <option value="الخميس">الخميس</option>
+                            <option value="الجمعة">الجمعة</option>
+                            <option value="السبت">السبت</option>
+                        </select>
+                        <label class="label" for="country"><i class="lnr lnr-map-marker"></i> يوم الأجتماع</label>
+                    </div>
+
+                    <div class="input-group">
+                        <input type="text" class="input" name="وقت الأجتماع" id="time" style="text-align: left;" >
+                        <label class="label" for="time"><i class="lnr lnr-clock"></i>وقت الأجتماع</label> 
+                    </div>
+
+                    <div class="input-group">
+                        <input type="text" class="input" name="مدة الأجتماع" id="time-pickable" style="text-align: left;" readonly>
+                        <label class="label" for="time-pickable"><i class="lnr lnr-alarm"></i>مدة الأجتماع</label>
+                    </div> 
+
+                    <div class="input-group">
+                        <input type="text" class="input" name="منصة الأجتماع" id="confirm-p" >
+                        <label class="label" for="confirm-p"><i class="lnr lnr-laptop-phone"></i>منصة الأجتماع</label>
+                    </div>
+
+                </fieldset>
+
+                <fieldset class="tab-panel">
+                    <div class="legend"> <span><img src="شعار اديب.png" style="width: 90px; margin: 0px 3px -13px 0px;"></span> تقرير إجتماعات </div>
+
+                    <div class="input-group">
+                        <textarea name="محاور الأجتماع" class="input" id="meet" cols="30" rows="10" ></textarea>
+                        <label class="label" for="meet"><i class="lnr lnr-bookmark"></i>محاور الإجتماع</label>
+                    </div>
+                </fieldset>
+
+                <fieldset class="tab-panel">
+                    <div class="legend"> <span><img src="شعار اديب.png" style="width: 90px; margin: 0px 3px -13px 0px;"></span> تقرير إجتماعات </div>
+
+                    <div class="input-group">
+                        <textarea name="أهم التحديثات والأفكار" class="input" id="meet1" cols="30" rows="10" ></textarea>
+                        <label class="label" for="meet1"><i class="lnr lnr-star-empty"></i>أهم التحديثات والأفكار</label>
+                    </div>
+                </fieldset>
+                
+                <fieldset class="tab-panel">
+                    <div class="legend"> <span><img src="شعار اديب.png" style="width: 90px; margin: 0px 3px -13px 0px;"></span> تقرير إجتماعات </div>
+                    <div class="input-group">
+                        <input type="text" class="input" name="رئيس الأجتماع" id="facebook" >
+                        <label class="label" for="facebook"><i class="lnr lnr-user"></i> رئيس الأجتماع</label>
+                    </div>
+
+                    <div class="input-group">
+                        <textarea name="أسماء الحضور" class="input" id="names" cols="30" rows="10" ></textarea>
+                        <label class="label" for="names"><i class="lnr lnr-users"></i>أسماء الحضور</label>
+                    </div>
+
+                    <div class="input-group">
+                        <input type="text" class="input" name="كاتب التقرير" id="instagram" >
+                        <label class="label" for="instagram"><i class="lnr lnr-pencil"></i> كاتب التقرير</label>
+                    </div>
+
+                </fieldset>
+               
+            </div>
+            <button class="submit-button button" onclick="sweetalertclick()">ارسال التقرير</button>
+            <!-- <input class="submit-button button" type="submit" value="Register"> -->
+            <nav id="tab-nav" class="tab-nav">
+                <button class="tab-nav__button nav-button prev lnr lnr-arrow-up"></button>
+                <button class="tab-nav__button nav-button next lnr lnr-arrow-down"></button>
+            </nav>
+            
+        </form>
+    </div>
+
+<!-- JS -->
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script>
+    <script  src="script.js"></script>
+    <script  src="time.js"></script>
+<!-- Date -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="datedropper-javascript.js"></script>
+    <script>
+        new dateDropper({
+            selector: 'input[type="date"]',
+            expandable: true,
+            format: 'd-m-y',
+            maxYear: 2023,
+            minYear: 2022,
+        });
+    </script>
+<!-- Time -->
+    <script src="timedropper-jquery.js"></script>
+    <script>
+        $('#time').timeDropper({
+            format: 'h:mm A',
+            customClass: 'time',
+});
+    </script>
+<!-- Send Data Base & Alert -->
+<script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbwdmF61OZePT9AvZ-oNjm19rK_FtB9yxoBRpVuKkDoIi9RuhLw553cWnv0xo4_Hz4RG/exec'
+    const form = document.forms['form']
+    
+    form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+          Swal.fire({
+  title: '<strong>شكرًا على اهتمامك</strong>',
+  icon: 'success',
+  html:
+    'تم استلام التقرير بنجاح',
+  showCloseButton: true,
+  showCancelButton: true,
+  focusConfirm: false,
+  confirmButtonText:
+  '<a href="https://twitter.com/AB_KFU">الذهاب الى تويتر</a>',
+  cancelButtonText:
+  '<a href="index.html">تسجيل تقرير جديد</a>',
+})
+        })
+    </script>
+
+
+    
+
+</body>
+</html>
