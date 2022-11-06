@@ -26,17 +26,17 @@
                 <fieldset class="tab-panel">
                     <div class="legend"> <span><img src="شعار اديب.png"></span> تقرير إجتماعات </div>
                     <div class="input-group">
-                        <input type="number" class="input" name="رقم الأجتماع" id="number">
+                        <input type="number" class="input" name="رقم الأجتماع" id="number" required>
                         <label class="label" for="number"><i class="lnr lnr-briefcase"></i>رقم الأجتماع</label> 
                     </div>
 
                     <div class="input-group">
-                        <input type="date" class="input" name="تاريخ الأجتماع" id="date" data-dd-opt-custom-class="date" >
+                        <input type="date" class="input" name="تاريخ الأجتماع" id="date" data-dd-opt-custom-class="date" required>
                         <label class="label" for="date"><i class="lnr lnr-calendar-full"></i>تاريخ الأجتماع</label> 
                     </div>
 
                     <div class="input-group select">
-                        <select name="يوم الأجتماع" class="input" id="country" >
+                        <select name="يوم الأجتماع" class="input" id="country" required>
                             <option value=""></option>
                             <option value="الأحد">الأحد</option>
                             <option value="الأثنين">الأثنين</option>
@@ -50,17 +50,17 @@
                     </div>
 
                     <div class="input-group">
-                        <input type="text" class="input" name="وقت الأجتماع" id="time" style="text-align: left;" >
+                        <input type="text" class="input" name="وقت الأجتماع" id="time" style="text-align: left;" required>
                         <label class="label" for="time"><i class="lnr lnr-clock"></i>وقت الأجتماع</label> 
                     </div>
 
                     <div class="input-group">
-                        <input type="text" class="input" name="مدة الأجتماع" id="time-pickable" style="text-align: left;" readonly>
+                        <input type="text" class="input" name="مدة الأجتماع" id="time-pickable" style="text-align: left;" required readonly>
                         <label class="label" for="time-pickable"><i class="lnr lnr-alarm"></i>مدة الأجتماع</label>
                     </div> 
 
                     <div class="input-group">
-                        <input type="text" class="input" name="منصة الأجتماع" id="confirm-p" >
+                        <input type="text" class="input" name="منصة الأجتماع" id="confirm-p" required>
                         <label class="label" for="confirm-p"><i class="lnr lnr-laptop-phone"></i>منصة الأجتماع</label>
                     </div>
 
@@ -70,7 +70,7 @@
                     <div class="legend"> <span><img src="شعار اديب.png" style="width: 90px; margin: 0px 3px -13px 0px;"></span> تقرير إجتماعات </div>
 
                     <div class="input-group">
-                        <textarea name="محاور الأجتماع" class="input" id="meet" cols="30" rows="10" ></textarea>
+                        <textarea name="محاور الأجتماع" class="input" id="meet" cols="30" rows="10" required></textarea>
                         <label class="label" for="meet"><i class="lnr lnr-bookmark"></i>محاور الإجتماع</label>
                     </div>
                 </fieldset>
@@ -79,7 +79,7 @@
                     <div class="legend"> <span><img src="شعار اديب.png" style="width: 90px; margin: 0px 3px -13px 0px;"></span> تقرير إجتماعات </div>
 
                     <div class="input-group">
-                        <textarea name="أهم التحديثات والأفكار" class="input" id="meet1" cols="30" rows="10" ></textarea>
+                        <textarea name="أهم التحديثات والأفكار" class="input" id="meet1" cols="30" rows="10" required></textarea>
                         <label class="label" for="meet1"><i class="lnr lnr-star-empty"></i>أهم التحديثات والأفكار</label>
                     </div>
                 </fieldset>
@@ -87,17 +87,17 @@
                 <fieldset class="tab-panel">
                     <div class="legend"> <span><img src="شعار اديب.png" style="width: 90px; margin: 0px 3px -13px 0px;"></span> تقرير إجتماعات </div>
                     <div class="input-group">
-                        <input type="text" class="input" name="رئيس الأجتماع" id="facebook" >
+                        <input type="text" class="input" name="رئيس الأجتماع" id="facebook" required>
                         <label class="label" for="facebook"><i class="lnr lnr-user"></i> رئيس الأجتماع</label>
                     </div>
 
                     <div class="input-group">
-                        <textarea name="أسماء الحضور" class="input" id="names" cols="30" rows="10" ></textarea>
+                        <textarea name="أسماء الحضور" class="input" id="names" cols="30" rows="10" readonly></textarea>
                         <label class="label" for="names"><i class="lnr lnr-users"></i>أسماء الحضور</label>
                     </div>
 
                     <div class="input-group">
-                        <input type="text" class="input" name="كاتب التقرير" id="instagram" >
+                        <input type="text" class="input" name="كاتب التقرير" id="instagram" readonly>
                         <label class="label" for="instagram"><i class="lnr lnr-pencil"></i> كاتب التقرير</label>
                     </div>
 
